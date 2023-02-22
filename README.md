@@ -121,7 +121,7 @@ Aquí hay una lista de valores falsos falsy:
 - 0 ('number')
 - -0 (cero negativo)
 - 0n (BigInt cero)
-- "", '', ` `  (empty string)
+- "", '', \`\`  (empty string)
 - null
 - undefined
 - NaN (Not a Number)
