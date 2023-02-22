@@ -85,6 +85,49 @@ let nombre = prompt('Dame tu nombre','Xurxo') // El segundo argumento es opciona
 alert('Mi nombre es ' + nombre) // Cuando sumamos / unimos strings el operador + es de concatenación
 ```
 
+## Estructura de control if
+
+Con esta estructura de control podemos tomar decisiones. Esta estructura _no es un función_ a pesar de los paréntesis.
+
+### Sintaxis
+    
+    ```js
+    if (condicion) {
+      sentencias
+    } else {
+      sentencias
+    }
+### Explicación rápida
+
+
+El __if...else__ es un __tipo de instrucción condicional__ que ejecutará un bloque de código cuando la condición de la instrucción if sea _veraz_ __truthy__. Si la condición es _falsa_ __falsy__, se ejecutará el bloque else.
+
+Los valores veraces truthy y falsos falsy __se convierten en verdaderos__ true o falsos false en las sentencias if.
+
+Ejemplo: En lógica cualquier número diferente de 0 es __truthy__ por tanto en una instrucción if se convierte a true. Ejemplo
+
+```js
+if (3) { // 3 es truthy y por tanto se convierte en true
+  console.log('No es un cero')
+} else {
+  console.log('Es un cero') // Nunca se cumple esta sentencia
+}
+```
+Aquí hay una lista de valores falsos falsy:
+
+- false
+- 0 ('number')
+- -0 (cero negativo)
+- 0n (BigInt cero)
+- "", '', ` `  (empty string)
+- null
+- undefined
+- NaN (Not a Number)
+
+### Fuentes
+
+[Estructuras de control y operadores lógicos - if, switch](https://www.freecodecamp.org/espanol/news/javascript-if-else-y-if-then-sentencias-condicionales-en-js/)
+
 ## <abbr title="Not a Number">NaN</abbr>
 
 Este mensaje sale cuando la __expresión__ no es un número
