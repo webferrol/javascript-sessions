@@ -5,6 +5,15 @@
 - [Apuntes de Bluuweb](https://bluuweb.dev/04-javascript/javascript.html)
 - [MDN JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
 
+- Ejecutar JavaScript desde consola
+  - Comando node
+    node fichero.js
+  - Navegador, por ejemplo:
+    - Escribir en la barra de direcciones __about:blank__
+    - Abrir el inspector e ir a la opción de la consola
+    
+
+
 ## Ejercicios básicos
 
 - Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
