@@ -18,8 +18,8 @@ Aquí tenemos a nuestro héroe
 - Una __variable__ es un _contenedor de información_  que apunta a un lugar de memoria
 - La variables que no pueden modificarse se llaman __constantes__
 - Clasificación de variables según su tipo
-  1. Primitivos o inmutables (number, string, boolean, bigint, undefind, Symbol)
-  2. De referencia o mutables, en definitva todos los que no son primitivos
+  1. __Primitivos__ o __inmutables__ (number, string, boolean, bigint, undefind, Symbol)
+  2. De __referencia__ o __mutables__, en definitva todos los que no son primitivos
   3. No está en esta clasificación pero ponemos el caso raro o bug __null__
 - Las __variables__ y __constantes__ se deben siempre declarar en ES6 con las palabras reservadas __let__ o __const__
 
@@ -66,4 +66,37 @@ Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (
 
 # Sesión 2
 
-A ver que nos depara la vida
+## Funciónes básicas de entrada y salida de datos
+
+### Entrada de datos:
+  1. Función __prompt()__. _⚠️ Sólo para desarrollo_
+
+```js
+let nombre = prompt('Dame tu nombre','Xurxo') // El segundo argumento es opcional
+```
+
+![prompt()](/assets/prompt.gif)
+
+### Salida de datos
+  1. Función __alert()__. _⚠️ Sólo para desarrollo_
+
+```js
+let nombre = prompt('Dame tu nombre','Xurxo') // El segundo argumento es opcional
+alert('Mi nombre es ' + nombre) // Cuando sumamos / unimos strings el operador + es de concatenación
+```
+
+## <abbr title="Not a Number">NaN</abbr>
+
+Este mensaje sale cuando la __expresión__ no es un número
+
+```js
+console.log(0 / 0) 
+// -> NaN. Puesto que esta operación no es posible
+```
+Existe una función para saber si una expresión __Not a Number__ que es isNaN
+
+```js
+console.log(isNaN('Xurxo')) 
+// -> true. Puesto que 'Xurxo' no es un número
+```
+__isNaN()__ es útil con estructras de control como __if__ que veremos pronto pronto pronto que es ya
