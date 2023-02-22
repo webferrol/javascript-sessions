@@ -91,12 +91,14 @@ Con esta estructura de control podemos tomar decisiones. Esta estructura _no es 
 
 ### Sintaxis
     
-    ```js
-    if (condicion) {
-      sentencias
-    } else {
-      sentencias
-    }
+```js
+if (condicion) {
+  sentencias
+} else {
+  sentencias
+}
+```
+
 ### Explicación rápida
 
 
