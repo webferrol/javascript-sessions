@@ -1,20 +1,33 @@
 'use strict'
 
-let num1, num2, num3, x
+let num1, num2, num3
 num1 = num2 = num3 = 0
 
 num1 = Number(prompt('Número 1'))
 num2 = Number(prompt('Número 2'))
 num3 = Number(prompt('Número 3'))
 
+// Opción 1
 if (num1 > num2) {
-  x = num1
+  if (num1 > num3) {
+    alert(`El mayor (${num1},${num2},${num3}): ${num1}`)
+  }
+} else if (num2 > num3) {
+  alert(`El mayor (${num1},${num2},${num3}): ${num2}`)
 } else {
-  x=num2
+  alert(`El mayor (${num1},${num2},${num3}): ${num3}`)
 }
-if (x < num3){
-  x = num3
-}
+ 
+// Opción 2
+// let aux
+// if (num1 > num2) {
+//   aux = num1
+// } else {
+//   aux=num2
+// }
+// if (aux < num3){
+//   aux = num3
+// }
 
-alert(`El mayor (${num1},${num2},${num3}): ${x}`)
+// alert(`El mayor (${num1},${num2},${num3}): ${aux}`)
 

@@ -42,30 +42,6 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
 
 - [Apuntes de Bluuweb](https://bluuweb.dev/04-javascript/javascript.html)
 - [MDN JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
-  
-## Ejercicios básicos
-
-- Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
-- Realiza el mismo ejercico que el anterior pero mostrándolo en una variable
-- Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
-- Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”
-- Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
-- Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
-- Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
-- Escribe un programa que pida un número y diga si es divisible por 2
-- Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a
-- Escribe un programa que pida una frase y escriba las vocales que aparecen
-- Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales
-- Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
-- Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
-Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
-- Escribir un programa que escriba en pantalla los divisores de un número dado
-- Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
-- Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
-
-
-# Sesión 2
-
 ## Funciónes básicas de entrada y salida de datos
 
 ### Entrada de datos:
@@ -85,7 +61,7 @@ let nombre = prompt('Dame tu nombre','Xurxo') // El segundo argumento es opciona
 alert('Mi nombre es ' + nombre) // Cuando sumamos / unimos strings el operador + es de concatenación
 ```
 
-## Estructura de control if
+## [Estructura de control if]((https://www.freecodecamp.org/espanol/news/javascript-if-else-y-if-then-sentencias-condicionales-en-js/))
 
 Con esta estructura de control podemos tomar decisiones. Esta estructura _no es un función_ a pesar de los paréntesis.
 
@@ -100,7 +76,6 @@ if (condicion) {
 ```
 
 ### Explicación rápida
-
 
 El __if...else__ es un __tipo de instrucción condicional__ que ejecutará un bloque de código cuando la condición de la instrucción if sea _veraz_ __truthy__. Si la condición es _falsa_ __falsy__, se ejecutará el bloque else.
 
@@ -126,22 +101,52 @@ Aquí hay una lista de valores falsos falsy:
 - undefined
 - NaN (Not a Number)
 
-### Fuentes
-
-[Estructuras de control y operadores lógicos - if, switch](https://www.freecodecamp.org/espanol/news/javascript-if-else-y-if-then-sentencias-condicionales-en-js/)
-
 ## <abbr title="Not a Number">NaN</abbr>
 
-Este mensaje sale cuando la __expresión__ no es un número
+Esta __expresión litera__ se muestra cuando la __expresión__ <strong>NO</strong> es un número
 
 ```js
 console.log(0 / 0) 
 // -> NaN. Puesto que esta operación no es posible
 ```
-Existe una función para saber si una expresión __Not a Number__ que es isNaN
+
+  ⚠️⚠️⚠️ No sirve para que evaluar puesto que:
+
+  ```js
+  NaN ===NaN // >> false
+  ```
+
+Para ello existe una función para saber si una expresión se trata de un __Not a Number__:  isNaN()
 
 ```js
 console.log(isNaN('Xurxo')) 
 // -> true. Puesto que 'Xurxo' no es un número
 ```
 __isNaN()__ es útil con estructras de control como __if__ que veremos pronto pronto pronto que es ya
+  
+## Ejercicios básicos
+
+1. [x] Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
+2. [x] Realiza el mismo ejercico que el anterior pero mostrándolo en una variable
+3. [x] Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
+4. [x] Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”
+5. [x] Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
+6. [x] Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+7. [x] Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+![Mayor de 3](./assets/mayor_de_tres.jpg)
+8. [] Escribe un programa que pida un número y diga si es divisible por 2
+9. [] Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a (No hay que escribir acentos)
+10. [] Escribe un programa que pida una frase y escriba las vocales que aparecen (No hay que escribir acentos)
+11. [] Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales (No hay que escribir acentos)
+12. [] Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
+13. [] Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
+14. [] Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
+15. [] Escribir un programa que escriba en pantalla los divisores de un número dado
+16. [] Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
+17. [] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
+
+## Sesión 3
+- Estructuras de control
+  - while, for
+- Tipos de datos no primitivos
+  - Objetos
