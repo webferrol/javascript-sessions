@@ -103,7 +103,7 @@ Aquí hay una lista de valores falsos falsy:
 
 ## <abbr title="Not a Number">NaN</abbr>
 
-Esta __expresión litera__ se muestra cuando la __expresión__ <strong>NO</strong> es un número
+Esta __expresión literal__ se muestra cuando la __expresión__ <strong>NO</strong> es un número
 
 ```js
 console.log(0 / 0) 
