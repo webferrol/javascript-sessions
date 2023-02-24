@@ -135,8 +135,8 @@ __isNaN()__ es útil con estructras de control como __if__ que veremos pronto pr
 7. [x] Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
 ![Mayor de 3](./assets/mayor_de_tres.jpg)
 8. [x] Escribe un programa que pida un número y diga si es divisible por 2
-9. [] Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a (No hay que escribir acentos)
-10. [] Escribe un programa que pida una frase y escriba las vocales que aparecen (No hay que escribir acentos)
+9. [x] Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a (No hay que escribir acentos)
+10. [x] Escribe un programa que pida una frase y escriba las vocales que aparecen (No hay que escribir acentos y sólo minúsculas)
 11. [] Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales (No hay que escribir acentos)
 12. [] Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
 13. [] Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
