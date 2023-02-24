@@ -1,4 +1,4 @@
-# JavaScrip
+# JavaScrip Hola clase
 
 _JavaScript_ es un __lenguaje de programación de alto nivel__. Se trata e un lenguaje interpretado y no compilado.
 
