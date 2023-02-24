@@ -1,4 +1,4 @@
-# JavaScrip Hola clase
+# JavaScrip
 
 _JavaScript_ es un __lenguaje de programación de alto nivel__. Se trata e un lenguaje interpretado y no compilado.
 
@@ -134,7 +134,7 @@ __isNaN()__ es útil con estructras de control como __if__ que veremos pronto pr
 6. [x] Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 7. [x] Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
 ![Mayor de 3](./assets/mayor_de_tres.jpg)
-8. [] Escribe un programa que pida un número y diga si es divisible por 2
+8. [x] Escribe un programa que pida un número y diga si es divisible por 2
 9. [] Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a (No hay que escribir acentos)
 10. [] Escribe un programa que pida una frase y escriba las vocales que aparecen (No hay que escribir acentos)
 11. [] Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales (No hay que escribir acentos)
@@ -146,7 +146,31 @@ __isNaN()__ es útil con estructras de control como __if__ que veremos pronto pr
 17. [] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
 ## Sesión 3
-- Estructuras de control
-  - while, for
+## Estructuras de control
+
+### while
+
+```js
+let name = 'George' // Declaración e incialización de variables
+let size = name.length // tamaño de un string
+let i = 0 // Una variable que sirve de índice para recorrer el string
+
+// Bucle while
+while ( i < size) { // Mientra que la condición sea truthy dará vueltas // ⚠ OJO a los BUCLES INFINITOS
+  console.log(name[i])
+  i++ // incrementamos índice
+}
+```
+
+## for
+Nos facilita las cosas
+
+```js
+let name = 'George' // Declaración e incialización de variables
+for (let x = 0; x < name.length; x++) {
+   console.log(name[x])
+}
+```
+ 
 - Tipos de datos no primitivos
   - Objetos
