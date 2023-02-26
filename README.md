@@ -199,3 +199,22 @@ const removedItem = names.pop() // >> ['Xurxo', 'Irene']
 15. [] Escribir un programa que escriba en pantalla los divisores de un número dado
 16. [] Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
 17. [] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
+
+
+## Sesión cuatro
+
+- Funciones
+
+- Recursividad 
+
+```js
+function divisoresComunes (i, numberValue, divisoresTmp) {
+   if (numberValue % i === 0) {
+      divisoresTmp.push(i)
+   }  
+   if(i <= numberValue) {
+    divisoresComunes(++i, numberValue, divisoresTmp) // Aquí la recursividad    
+   }  
+   return divisoresTmp
+}
+```
