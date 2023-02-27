@@ -198,7 +198,7 @@ const removedItem = names.pop() // >> ['Xurxo', 'Irene']
 14. [x] Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
 15. [x] Escribir un programa que escriba en pantalla los divisores de un número dado
 16. [x] Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
-17. [] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
+17. [x] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
 
 ## Sesión cuatro
