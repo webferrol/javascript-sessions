@@ -264,9 +264,9 @@ const btn = document.querySelector('#btn')
 
 - Realizar una función o procedimiento que acepte dos números y reste simpre el mayor de los dos
 
-### Higher Order Function (HOC)
+### Higher Order Function (HOF)
 
-Una función de orden mayor <abbr title="higher order function">HOC</abbr> se denomina a cualquier función que reciba una función como parámetro o cualquier función que retorne otra función. __Las funciones que se pasan por parámetro se denominan callback__.
+Una función de orden mayor <abbr title="higher order function">HOF</abbr> se denomina a cualquier función que reciba una función como parámetro o cualquier función que retorne otra función. __Las funciones que se pasan por parámetro se denominan callback__.
 En JavaScript decimos que las funciones son first-class citizens o ciudadanas de primera clase, esto significa que pueden ser tratadas como cualquier otro valor primitivo.  
 
 - addEventListener(
