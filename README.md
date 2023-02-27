@@ -194,10 +194,10 @@ const removedItem = names.pop() // >> ['Xurxo', 'Irene']
 10. [x] Escribe un programa que pida una frase y escriba las vocales que aparecen (No hay que escribir acentos y sólo minúsculas)
 11. [x] Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales (No hay que escribir acentos)
 12. [x] Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
-13. [] Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
-14. [] Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
-15. [] Escribir un programa que escriba en pantalla los divisores de un número dado
-16. [] Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
+13. [x] Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
+14. [x] Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
+15. [x] Escribir un programa que escriba en pantalla los divisores de un número dado
+16. [x] Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
 17. [] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
 
