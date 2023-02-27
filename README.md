@@ -179,6 +179,65 @@ newArray.push(2) // >> [1, 2]
 const removedItem = names.pop() // >> ['Xurxo', 'Irene']
 ```
 
+## Funciones
+
+La sintaxis tradicional es: 
+
+```js
+function miFuncion (arg1, arg2, argn) {
+  
+  // instrucción 1
+  // instrucción 2
+  // instrucción n
+
+  return valor // Si no hay retorno la función pasa a llamarse "Procedimiento"
+}
+```
+
+Sintáxis desde __ES6__
+
+```js
+const miFuncion = (arg1, arg2, argn) => {  // No olvides el operador flecha __=>__
+
+  // instrucción 1
+  // instrucción 2
+  // instrucción n
+
+  return valor // Si no hay retorno la función pasa a llamarse "Procedimiento"
+}
+```
+
+### Recursividad
+
+Cuando una función se llama a sí misma se denomina recursividad. A no ser que se tenga claro lo que se hace habrá que tratar de evitarla.
+
+```js
+function divisoresComunes (i, numberValue, divisoresTmp) {
+   if (numberValue % i === 0) {
+      divisoresTmp.push(i)
+   }  
+   if(i <= numberValue) {
+    divisoresComunes(++i, numberValue, divisoresTmp) // Aquí la recursividad    
+   }  
+   return divisoresTmp
+}
+```
+
+## Capturar elementos del <abbr title="Document Object Model">DOM</abbr>
+
+A la hora de capturar elementos del <abbr title="Document Object Model">DOM</abbr> disponemos de varíos __métodos__
+  - querySelector
+  - querySelectorAll
+  - getElementById
+  - getElementsByTagName
+
+Para saber como funcionan y otros métodos de captura disponemos de la guía online de __MDN__
+
+```js
+// Captura de un botón cuyo atributo id es "btn"
+const btn = document.querySelector('#btn')
+```
+
 ## Ejercicios básicos
 
 1. [x] Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
@@ -201,20 +260,23 @@ const removedItem = names.pop() // >> ['Xurxo', 'Irene']
 17. [x] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
 
-## Sesión cuatro
+## Sesión cinco
 
-- Funciones
+- Realizar una función o procedimiento que acepte dos números y reste simpre el mayor de los dos
 
-- Recursividad 
+### Higher Order Function (HOC)
 
-```js
-function divisoresComunes (i, numberValue, divisoresTmp) {
-   if (numberValue % i === 0) {
-      divisoresTmp.push(i)
-   }  
-   if(i <= numberValue) {
-    divisoresComunes(++i, numberValue, divisoresTmp) // Aquí la recursividad    
-   }  
-   return divisoresTmp
-}
-```
+Una función de orden mayor <abbr title="higher order function">HOC</abbr> se denomina a cualquier función que reciba una función como parámetro o cualquier función que retorne otra función. __Las funciones que se pasan por parámetro se denominan callback__.
+En JavaScript decimos que las funciones son first-class citizens o ciudadanas de primera clase, esto significa que pueden ser tratadas como cualquier otro valor primitivo.  
+
+- addEventListener(
+  evento
+  callback
+)
+
+## Ejercicio de refuerzos
+
+- Realizar un programa que acepte dos números obtenidos de sendos controles de formuario de tipo _text_ y reste simpre el mayor de los dos
+
+- [Ejercicios de DOM](https://github.com/webferrol/dom-js-newbie)
+- [Ejercicios de repaso](https://github.com/webferrol/js-repaso-newbie)
