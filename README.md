@@ -197,7 +197,7 @@ function miFuncion (arg1, arg2, argn) {
 Sintáxis desde __ES6__
 
 ```js
-const miFuncion = (arg1, arg2, argn) => {  // No olvides el operador flecha __=>__
+const miFuncion = (arg1, arg2, argn) => {  // No olvides el operador flecha =>
 
   // instrucción 1
   // instrucción 2
