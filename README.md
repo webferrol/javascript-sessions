@@ -184,7 +184,7 @@ const removedItem = names.pop() // >> ['Xurxo', 'Irene']
 La sintaxis tradicional es: 
 
 ```js
-function miFuncion (arg1, arg2, argn) {
+function miFuncion (parameter1, parameter2, parameterN) {
   
   // instrucción 1
   // instrucción 2
@@ -197,7 +197,7 @@ function miFuncion (arg1, arg2, argn) {
 Sintáxis desde __ES6__
 
 ```js
-const miFuncion = (arg1, arg2, argn) => {  // No olvides el operador flecha =>
+const miFuncion = (parameter1, parameter2, parameterN) => {  // No olvides el operador flecha =>
 
   // instrucción 1
   // instrucción 2
@@ -206,12 +206,22 @@ const miFuncion = (arg1, arg2, argn) => {  // No olvides el operador flecha =>
   return valor // Si no hay retorno la función pasa a llamarse "Procedimiento"
 }
 ```
+### Higher Order Function (HOF)
+
+Una función de orden mayor <abbr title="higher order function">HOF</abbr> se denomina a cualquier función que reciba una función como parámetro o cualquier función que retorne otra función. __Las funciones que se pasan por parámetro se denominan callback__.
+En JavaScript decimos que las funciones son first-class citizens o ciudadanas de primera clase, esto significa que pueden ser tratadas como cualquier otro valor primitivo.  
+
+- addEventListener(
+  evento
+  callback
+)
 
 ### Recursividad
 
 Cuando una función se llama a sí misma se denomina recursividad. A no ser que se tenga claro lo que se hace habrá que tratar de evitarla.
 
 ```js
+// Declaración de la función
 function divisoresComunes (i, numberValue, divisoresTmp) {
    if (numberValue % i === 0) {
       divisoresTmp.push(i)
@@ -221,6 +231,9 @@ function divisoresComunes (i, numberValue, divisoresTmp) {
    }  
    return divisoresTmp
 }
+
+// Lanzamos la función
+const divisores = divisoresComunes(1, 232, [])
 ```
 
 ## Capturar elementos del <abbr title="Document Object Model">DOM</abbr>
@@ -258,25 +271,14 @@ const btn = document.querySelector('#btn')
 15. [x] Escribir un programa que escriba en pantalla los divisores de un número dado
 16. [x] Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
 17. [x] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
+18. [x]Realizar un programa que acepte dos números obtenidos de sendos controles de formuario de tipo _text_ y reste simpre el mayor de los dos
 
 
-## Sesión cinco
+## Sesión seis
 
-- Realizar una función o procedimiento que acepte dos números y reste simpre el mayor de los dos
-
-### Higher Order Function (HOF)
-
-Una función de orden mayor <abbr title="higher order function">HOF</abbr> se denomina a cualquier función que reciba una función como parámetro o cualquier función que retorne otra función. __Las funciones que se pasan por parámetro se denominan callback__.
-En JavaScript decimos que las funciones son first-class citizens o ciudadanas de primera clase, esto significa que pueden ser tratadas como cualquier otro valor primitivo.  
-
-- addEventListener(
-  evento
-  callback
-)
 
 ## Ejercicio de refuerzos
 
-- Realizar un programa que acepte dos números obtenidos de sendos controles de formuario de tipo _text_ y reste simpre el mayor de los dos
 
 - [Ejercicios de DOM](https://github.com/webferrol/dom-js-newbie)
 - [Ejercicios de repaso](https://github.com/webferrol/js-repaso-newbie)
