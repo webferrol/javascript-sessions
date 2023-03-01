@@ -227,11 +227,11 @@ document.querySelector('#btn').addEventListener('click', function (event) {
 })
 ```
 
-Un ejemplo más elaborado de HOC:
+Un ejemplo más elaborado de <abbr title="higher order function">HOF</abbr>:
 
 ```js
-// HOC
-function higherOrderFuncion (value, callback) {
+// HOF
+function higherOrderFunction (value, callback) {
   return callback(value)
 }
 
@@ -261,8 +261,8 @@ function esNumeroPrimo (num) {
 }
 
 // divisoresComunes y esNumeroPrimo ahora son callbacks
-const divisores  = higherOrderFuncion(7, divisoresComunes)
-const esPrimo = higherOrderFuncion(7, esNumeroPrimo)
+const divisores  = higherOrderFunction(7, divisoresComunes)
+const esPrimo = higherOrderFunction(7, esNumeroPrimo)
 
 console.log(divisores) // << [ 1, 7 ]
 console.log(esPrimo) // << true
