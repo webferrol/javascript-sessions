@@ -206,15 +206,67 @@ const miFuncion = (parameter1, parameter2, parameterN) => {  // No olvides el op
   return valor // Si no hay retorno la función pasa a llamarse "Procedimiento"
 }
 ```
-### Higher Order Function (HOF)
+### Higher Order Function (HOF) y callback  
 
-Una función de orden mayor <abbr title="higher order function">HOF</abbr> se denomina a cualquier función que reciba una función como parámetro o cualquier función que retorne otra función. __Las funciones que se pasan por parámetro se denominan callback__.
-En JavaScript decimos que las funciones son first-class citizens o ciudadanas de primera clase, esto significa que pueden ser tratadas como cualquier otro valor primitivo.  
+Una __Función Orden de Orden Mayor__ <abbr title="higher order function">HOF</abbr> es un conjunto de instrucciones para realizar una tarea, por lo tanto es una __función normal__. Pero lo que diferencia es que puede llevar como __parámetro__ la declaración de otra _función_ (__callback__) o el retorno de la misma. Esto es debido a que en __JavaScript__ decimos que las funciones son __first-class citizens__ o ciudadanas de primera clase, esto significa que pueden ser tratadas como cualquier otro __valor primitivo__.
 
-- addEventListener(
-  evento
-  callback
-)
+Un ejemplo serían las funciones __addEventListener__ (HOF) y __foo__ (callback):
+
+```js
+function foo (event) {
+  // Conjunto de instrucciones
+}
+
+document.querySelector('#btn').addEventListener('click', foo)
+```
+Podemos reproducir el anterior ejemplo con un callback anónimo, es decir, una función no denominada:
+
+```js
+document.querySelector('#btn').addEventListener('click', function (event) {
+  // Conjunto de instrucciones
+})
+```
+
+Un ejemplo más elaborado de HOC:
+
+```js
+// HOC
+function higherOrderFuncion (value, callback) {
+  return callback(value)
+}
+
+// Función normal
+function divisoresComunes (numeros) {
+  const divisoresTmp = []
+  for (let i = 1; i <= numeros; i++) {
+    if (numeros % i === 0) {
+      divisoresTmp.push(i)
+    }
+  }
+  return divisoresTmp
+}
+
+// Función normal
+function esNumeroPrimo (num) {
+  if (num === 0 || num === 1) {
+    return false
+  } else {
+    for (let i = 2; i < num; i++) {
+      if (num % i === 0) {
+        return false
+      }
+    }
+  }
+  return true
+}
+
+// divisoresComunes y esNumeroPrimo ahora son callbacks
+const divisores  = higherOrderFuncion(7, divisoresComunes)
+const esPrimo = higherOrderFuncion(7, esNumeroPrimo)
+
+console.log(divisores) // << [ 1, 7 ]
+console.log(esPrimo) // << true
+```
 
 ### Recursividad
 
@@ -244,12 +296,22 @@ A la hora de capturar elementos del <abbr title="Document Object Model">DOM</abb
   - getElementById
   - getElementsByTagName
 
-Para saber como funcionan y otros métodos de captura disponemos de la guía online de __MDN__
+Para saber como funcionan y otros métodos de captura disponemos de la guía online de __MDN__, por ejemplo, [querySelectorAll](https://developer.mozilla.org/es/docs/Web/API/Document/querySelectorAll)
 
 ```js
 // Captura de un botón cuyo atributo id es "btn"
 const btn = document.querySelector('#btn')
 ```
+
+## Importación y exportación de módulos
+
+En __Vanilla JavaScript__ para que un fichero JavaScript (js) importado desde la __etiqueta__ _script_ pueda importar __módulos__ desde otros ficheros js hay que utilizar el atributo y valor __type="module"__
+
+```html
+<script src="script.js" type="module"></script>
+```
+
+Más información en [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules#aplicar_el_m%C3%B3dulo_a_tu_html)
 
 ## Ejercicios básicos
 
@@ -271,10 +333,10 @@ const btn = document.querySelector('#btn')
 15. [x] Escribir un programa que escriba en pantalla los divisores de un número dado
 16. [x] Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
 17. [x] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
-18. [x]Realizar un programa que acepte dos números obtenidos de sendos controles de formuario de tipo _text_ y reste simpre el mayor de los dos
+18. [x] Realizar un programa que acepte dos números obtenidos de sendos controles de formuario de tipo _text_ y reste simpre el mayor de los dos
 
 
-## Sesión seis
+## Sesión 7
 
 
 ## Ejercicio de refuerzos
