@@ -227,10 +227,10 @@ document.querySelector('#btn').addEventListener('click', function (event) {
 })
 ```
 
-Un ejemplo más elaborado de HOC:
+Un ejemplo más elaborado de <abbr title="higher order function">HOF</abbr>:
 
 ```js
-// HOC
+// HOF
 function higherOrderFuncion (value, callback) {
   return callback(value)
 }
