@@ -313,6 +313,33 @@ En __Vanilla JavaScript__ para que un fichero JavaScript (js) importado desde la
 
 Más información en [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules#aplicar_el_m%C3%B3dulo_a_tu_html)
 
+## node
+
+[Node.js®](https://nodejs.org/es/) es un __entorno de ejecución__ para JavaScript construido con __V8__, __motor de JavaScript de Chrome__.
+Esto no quiere más que decir que puedes ejecutar JavaScript en cualquier entorno además del __browser__
+
+Para iniciar node:
+
+```sh
+npm init -y
+```
+
+El fichero característico de este __entorno_ es el archivo llamado __package.json__
+Esto nos abre la oportunidad de instalar un montón de librerías en __JavaScript__ que nos permite realizar múltiples aplicaciones tanto del lado cliente como del servidor
+
+## Vite
+
+[Vite](https://es.vitejs.dev/) es una __herramienta frontend__
+
+Si quieres saber para qué nos sirve todo mira este [enlace](https://es.vitejs.dev/guide/why.html)
+
+Para inciciar vite con __npm__
+
+```sh
+npm create vite@latest
+```
+
+
 ## Ejercicios básicos
 
 1. [x] Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
@@ -335,12 +362,12 @@ Más información en [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/
 17. [x] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 18. [x] Realizar un programa que acepte dos números obtenidos de sendos controles de formuario de tipo _text_ y reste simpre el mayor de los dos
 
+19. [Ejercicios de DOM](https://github.com/webferrol/dom-js-newbie)
 
-## Sesión 7
+## Sesión 8
 
 
 ## Ejercicio de refuerzos
 
 
-- [Ejercicios de DOM](https://github.com/webferrol/dom-js-newbie)
 - [Ejercicios de repaso](https://github.com/webferrol/js-repaso-newbie)
