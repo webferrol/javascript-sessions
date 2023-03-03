@@ -230,11 +230,27 @@ console.log('Positives:',contadores[0], 'Negatives:', contadores[1], 'Zeros:',co
 Otro ejemplo con __reduce__ donde sumamos números:
 
 ```js
-const addedNumbers = [1, 2, 3, 4].reduce((accumulator, currentValue) => {
-  return accumulator + currentValue
-})
+const numeros = [1, 2, 3, 4]
+```
 
-console.log(addedNumbers) // << 10
+Creemos un __ciclo for__ para realizar nuestro acumulador para sumar todos los números del array:
+
+```js
+let addedNumbers = 0
+for (let i = 0; i < numeros.length; i++) {
+  addedNumbers += numeros[i]
+}
+
+console.log(numeros.join('+'),'=',addedNumbers) // << '1+2+3+4' '=' 10
+```
+Ahora utilicemos el método reductor:
+
+```js
+const addedNumbers = numeros.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue
+}) // Nótese que en la variable accumulator no me hizo falta iniciarlo a cero
+
+console.log(numeros.join('+'),'=',addedNumbers) // << '1+2+3+4' '=' 10
 ```
 
 ## Funciones
