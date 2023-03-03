@@ -196,7 +196,7 @@ numeros.length // << 4
 numeros.join('❤️') // << '0❤️-1❤️1❤️0'
 ```
 
-3. array.reduce():  __función reductora__ sobre cada elemento de un array, devolviendo como resultado __un único valor__.
+3. array.reduce():  __función reductora__ sobre cada elemento de un array, devolviendo como resultado __un único valor__. Podemos ver más informacion en [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
 Un ejemplo para calcular cúantos número positivos, negativos o ceros hay en un array podemos realizarlo utilizando un __lenguaje imperativo__:
 
@@ -227,7 +227,15 @@ const contadores = numeros.reduce((previousValue, currentValue) => {
 
 console.log('Positives:',contadores[0], 'Negatives:', contadores[1], 'Zeros:',contadores[2]) // << 'Positives:' 1 'Negatives:' 1 'Zeros:' 2
 ```
+Otro ejemplo con __reduce__ donde sumamos números:
 
+```js
+const addedNumbers = [1, 2, 3, 4].reduce((accumulator, currentValue) => {
+  return accumulator + currentValue
+})
+
+console.log(addedNumbers) // << 10
+```
 
 ## Funciones
 
