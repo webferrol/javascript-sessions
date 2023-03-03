@@ -176,8 +176,58 @@ newArray.push(1) // >> [1]
 newArray.push(2) // >> [1, 2]
 
 // Eliminar último elemento de un array
-const removedItem = names.pop() // >> ['Xurxo', 'Irene']
+const removedItem = names.pop() // >> ['Xurxo', 'Manuela']
 ```
+
+### Métodos de arrays
+
+```js
+const numeros = [0, -1 , 1 , 0]
+```
+1. Tamaño de un array
+
+```js
+numeros.length // << 4
+```
+
+2. Concatenar elementos de un array con un separador
+
+```js
+numeros.join('❤️') // << '0❤️-1❤️1❤️0'
+```
+
+3. array.reduce():  __función reductora__ sobre cada elemento de un array, devolviendo como resultado __un único valor__.
+
+Un ejemplo para calcular cúantos número positivos, negativos o ceros hay en un array podemos realizarlo utilizando un __lenguaje imperativo__:
+
+```js
+let pos = 0
+let neg = 0
+let zer = 0
+
+for (let i = 0; i < numeros.length; i++) {
+  if (numeros[i] > 0) pos++
+  else if (numeros[i] < 0) neg++
+  else zer++
+}
+
+console.log('Positives:',pos, 'Negatives:', neg, 'Zeros:',zer) // << 'Positives:' 1 'Negatives:' 1 'Zeros:' 2
+```
+
+O utilizar una función reductora: 
+
+```js
+// contadores: [positives, negatives, zeros]
+const contadores = numeros.reduce((previousValue, currentValue) => {
+  if (currentValue > 0) previousValue[0]++
+  else if (currentValue < 0) previousValue[1]++
+  else previousValue[2]++
+  return previousValue
+}, [0,0,0])
+
+console.log('Positives:',contadores[0], 'Negatives:', contadores[1], 'Zeros:',contadores[2]) // << 'Positives:' 1 'Negatives:' 1 'Zeros:' 2
+```
+
 
 ## Funciones
 
@@ -324,7 +374,7 @@ Para iniciar node:
 npm init -y
 ```
 
-El fichero característico de este __entorno_ es el archivo llamado __package.json__
+El fichero característico de este __entorno__ es el archivo llamado __package.json__
 Esto nos abre la oportunidad de instalar un montón de librerías en __JavaScript__ que nos permite realizar múltiples aplicaciones tanto del lado cliente como del servidor
 
 ## Vite
@@ -338,7 +388,9 @@ Para inciciar vite con __npm__
 ```sh
 npm create vite@latest
 ```
+Por cierto el creador del __bundle__ o empaquetador __Vite__ así como el creador de la _librería_ de __Vue__ fue un tal __Evan You__
 
+![Evan You](https://images.ctfassets.net/s5uo95nf6njh/2fEr6ctL9FxPtOPhUcM4FA/773007e573bfa16aebdb736f767b45fa/evan-you-hero.jpg)
 
 ## Ejercicios básicos
 
@@ -364,10 +416,12 @@ npm create vite@latest
 
 19. [Ejercicios de DOM](https://github.com/webferrol/dom-js-newbie)
 
-## Sesión 8
+## Sesión 9
 
 
 ## Ejercicio de refuerzos
+
+## Objetos
 
 
 - [Ejercicios de repaso](https://github.com/webferrol/js-repaso-newbie)
