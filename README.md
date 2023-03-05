@@ -36,9 +36,6 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
 
 ## Sesión 9
 
-
-## Ejercicio de refuerzos
-
 ## Creación de elementos
 
 - document.createElement
@@ -47,5 +44,7 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
 
 ## Objetos
 
+## Ejercicio de refuerzos
 
 - [Ejercicios de repaso](https://github.com/webferrol/js-repaso-newbie)
+- [Ejercicios random](https://github.com/webferrol/js-random-exercises)
