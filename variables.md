@@ -73,7 +73,7 @@ const numeros = [0, -1 , 1]
 1. __Propiedad__ que indica el tamaño de un __array__
 
 ```js
-numeros.length // << 4
+numeros.length // << 3
 ```
 2. __Método__ para añadir un elemento al __array__
 
