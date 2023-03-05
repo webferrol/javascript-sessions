@@ -125,6 +125,10 @@ console.log(numeros.join('+'),'=',addedNumbers) // << '1+2+3+4' '=' 10
 Otro ejemplo. Para calcular cúantos número positivos, negativos o ceros que hay en un array podemos realizarlo utilizando un __lenguaje imperativo__:
 
 ```js
+const numeros = [0, 0, -3, 4]
+```
+
+```js
 let pos = 0
 let neg = 0
 let zer = 0
