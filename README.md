@@ -34,17 +34,6 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
     - Escribir en la barra de direcciones __about:blank__ o abrir una pestaña del navegador en cualquier pestaña
     - Abrir el inspector e ir a la opción de la consola
 
-## Sesión 9
+## Sesión 10
 
-## Creación de elementos
-
-- document.createElement
-- element.append  // Permite adjuntar DOM y DOMString
-- element. removeChild
-
-## Objetos
-
-## Ejercicio de refuerzos
-
-- [Ejercicios de repaso](https://github.com/webferrol/js-repaso-newbie)
 - [Ejercicios random](https://github.com/webferrol/js-random-exercises)

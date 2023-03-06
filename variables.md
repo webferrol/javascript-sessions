@@ -21,9 +21,9 @@ const PI = 3.1416
 Recordermos que por su naturaleza son inmutables.
 ```js
 let nombre = 'Jorge'
-console.log(nombre[0]) // << 'J' Se pueden realizar operaciones de lectura
+console.log(nombre[0]) // >> 'J' Se pueden realizar operaciones de lectura
 nombre[0] = 'X'
-console.log(nombre) // << 'Jorge' No admite operaciones de escritura. Inmutabilidad
+console.log(nombre) // >> 'Jorge' No admite operaciones de escritura. Inmutabilidad
 ```
 
 ### Propiedades o métodos
@@ -35,13 +35,13 @@ let fullName = 'Xurxo González Tenreiro'
 1. __Propiedad__ que indica el tamaño de una cadena de texto o __string__
 
 ```js
-fullName.length // << 23
+fullName.length // >> 23
 ```
 
 2. __Método__ para obtener un __array__ de un string
 
 ```js
-fullName.split(' ') // << ['Xurxo', 'González', 'Tenreiro']
+fullName.split(' ') // >> ['Xurxo', 'González', 'Tenreiro']
 ```
 
 # Inmutables
@@ -73,25 +73,25 @@ const numeros = [0, -1 , 1]
 1. __Propiedad__ que indica el tamaño de un __array__
 
 ```js
-numeros.length // << 3
+numeros.length // >> 3
 ```
 2. __Método__ para añadir un elemento al __array__
 
 ```js
-numeros.push(1) // >> [0, -1, 1, 0]
-numeros.push(2) // >> [0, -1, 1, 0, 22]
+numeros.push(0) // >> [0, -1, 1, 0]
+numeros.push(22) // >> [0, -1, 1, 0, 22]
 ```
 3. __Método__ para eliminar el último elemento de un __array__
 
 ```js
 const removedItem = numeros.pop() // >> [0, -1, 1, 0]
-console.log(removedItem) // << 22
+console.log(removedItem) // >> 22
 ```
 
 4. Concatenar elementos de un array con un separador
 
 ```js
-numeros.join('❤️') // << '0❤️-1❤️1❤️0'
+numeros.join('❤️') // >> '0❤️-1❤️1❤️0'
 ```
 
 5. array.prototype.reduce():  __función reductora__ sobre cada elemento de un array, devolviendo como resultado __un único valor__. Podemos ver más informacion en [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
@@ -110,7 +110,7 @@ for (let i = 0; i < numeros.length; i++) {
   addedNumbers += numeros[i]
 }
 
-console.log(numeros.join('+'),'=',addedNumbers) // << '1+2+3+4' '=' 10
+console.log(numeros.join('+'),'=',addedNumbers) // >> '1+2+3+4' '=' 10
 ```
 Podríamos obtener el mismo resultado con un __método__ o __función reductora__:
 
@@ -119,7 +119,7 @@ const addedNumbers = numeros.reduce((accumulator, currentValue) => {
   return accumulator + currentValue
 }) // Nótese que en la variable accumulator no me hizo falta iniciarlo a cero
 
-console.log(numeros.join('+'),'=',addedNumbers) // << '1+2+3+4' '=' 10
+console.log(numeros.join('+'),'=',addedNumbers) // >> '1+2+3+4' '=' 10
 ```
 
 Otro ejemplo. Para calcular cúantos número positivos, negativos o ceros que hay en un array podemos realizarlo utilizando un __lenguaje imperativo__:
@@ -139,7 +139,7 @@ for (let i = 0; i < numeros.length; i++) {
   else zer++
 }
 
-console.log('Positives:',pos, 'Negatives:', neg, 'Zeros:',zer) // << 'Positives:' 1 'Negatives:' 1 'Zeros:' 2
+console.log('Positives:',pos, 'Negatives:', neg, 'Zeros:',zer) // >> 'Positives:' 1 'Negatives:' 1 'Zeros:' 2
 ```
 
 O de __manera declarativa__: 
@@ -153,8 +153,23 @@ const contadores = numeros.reduce((previousValue, currentValue) => {
   return previousValue
 }, [0,0,0])
 
-console.log('Positives:',contadores[0], 'Negatives:', contadores[1], 'Zeros:',contadores[2]) // << 'Positives:' 1 'Negatives:' 1 'Zeros:' 2
+console.log('Positives:',contadores[0], 'Negatives:', contadores[1], 'Zeros:',contadores[2]) // >> 'Positives:' 1 'Negatives:' 1 'Zeros:' 2
 ```
+
+6. array.prototype.map
+
+Nos permite iterar sobre cada elemento de un array y devolver un nuevo array con las operaciones realizada:
+
+```js
+const edades = [18, 15, 13, 1]
+
+const mayorMenorEdades = edades.map((value) => {
+  return value >= 18 ? 'Mayor de edad: ' + value : 'Menor de edad: ' + value
+})
+
+console.log(mayorMenorEdades) // >> [ 'Mayor de edad: 18', 'Menor de edad: 15', 'Menor de edad: 13', 'Menor de edad: 1' ]
+```
+
 
 __NO OBSTANTE NO HAY QUE OBSESIONARSE. LO QUE PRIMA COMO SIEMPRE ES LA LEGIBILIDAD DEL CÓDIGO__
 
