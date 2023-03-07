@@ -21,5 +21,6 @@
 18. [x] Realizar un programa que acepte dos números obtenidos de sendos controles de formuario de tipo _text_ y reste simpre el mayor de los dos
 
 19. [Ejercicios de DOM](https://github.com/webferrol/dom-js-newbie)
+20. [Ejercicios random](https://github.com/webferrol/js-random-exercises)
 
 [Volver](README.md)

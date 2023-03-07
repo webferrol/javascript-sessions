@@ -34,6 +34,7 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
     - Escribir en la barra de direcciones __about:blank__ o abrir una pestaña del navegador en cualquier pestaña
     - Abrir el inspector e ir a la opción de la consola
 
-## Sesión 10
+## Sesión 11
 
-- [Ejercicios random](https://github.com/webferrol/js-random-exercises)
+Objetos
+

@@ -28,6 +28,14 @@ btn.classList.add('btn','btn-primary')
 app.appendChild(btnEl) // Añadimos aquí. También tenemos método append()
 ```
 
+4. Ir al elemento padre de un elemento
+
+```js
+const app = document.querySelector('#myButton')
+const father = app.parentElement
+btn.classList.add('btn','btn-primary')
+```
+
 ## Métodos y propiedades aplicados a nodos del DOM
 1. Añadir una clase a un nodo
 

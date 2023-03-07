@@ -47,6 +47,17 @@ let nombre = prompt('Dame tu nombre','Xurxo') // El segundo argumento es opciona
 alert('Mi nombre es ' + nombre) // Cuando sumamos / unimos strings el operador + es de concatenación
 ```
 
+## Funciones matemácias
+
+## Math.random()
+La función __Math.random()__ devuelve un número de coma flotante pseudo-aleatorio, comprendido en el rango de 0 a menor que 1 (es decir, incluido el 0 pero no el 1), con una distribución aproximadamente uniforme en este rango. 
+
+## Math.floor
+Devuelve el máximo entero menor o igual a un número.
+
+## Math.trunc()
+La función Math.trunc() devuelve la parte entera de un numero removiendo cualquier dígito decimal (dígitos situados después de la coma).
+
 ## Higher Order Function (HOF) y callback  
 
 Una __Función Orden de Orden Mayor__ <abbr title="higher order function">HOF</abbr> es un conjunto de instrucciones para realizar una tarea, por lo tanto es una __función normal__. Pero lo que diferencia es que puede llevar como __parámetro__ la declaración de otra _función_ (__callback__) o el retorno de la misma. Esto es debido a que en __JavaScript__ decimos que las funciones son __first-class citizens__ o ciudadanas de primera clase, esto significa que pueden ser tratadas como cualquier otro __valor primitivo__.
