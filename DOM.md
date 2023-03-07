@@ -1,3 +1,7 @@
+# Documentación
+
+[pdf](https://drive.google.com/file/d/11IpaahbU0HUmDtgqqt0VvFFLpNgTvLtT/view)
+
 # Capturar elementos del <abbr title="Document Object Model">DOM</abbr>
 
 A la hora de capturar elementos (__nodos__) del <abbr title="Document Object Model">DOM</abbr> disponemos de varíos __métodos__

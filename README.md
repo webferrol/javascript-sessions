@@ -36,5 +36,9 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
 
 ## Sesión 11
 
-Objetos
+Clase Persona
+
+![Clase persona](./assets/objeto_persona.jpg)
+
+- [Classes Exercises](https://github.com/webferrol/js-classes-exercises)
 
