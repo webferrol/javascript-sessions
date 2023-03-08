@@ -34,11 +34,12 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
     - Escribir en la barra de direcciones __about:blank__ o abrir una pestaña del navegador en cualquier pestaña
     - Abrir el inspector e ir a la opción de la consola
 
-## Sesión 11
+## Sesión 12
 
 Clase Persona
 
 ![Clase persona](./assets/objeto_persona.jpg)
 
 - [Classes Exercises](https://github.com/webferrol/js-classes-exercises)
+- [Expresiones regulares](https://github.com/webferrol/js-exp-reg-exercise)
 

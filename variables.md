@@ -44,6 +44,29 @@ fullName.length // >> 23
 fullName.split(' ') // >> ['Xurxo', 'González', 'Tenreiro']
 ```
 
+3. __string.replace__ Nos permite reemplazar subcadenas de texto
+
+```js
+'Xurxo,González,Tenreiro'.replace(',', ' ') // >> 'Xurxo González,Tenreiro' 
+```
+__Problema__: No podemos hacerlo __global__. Es decir sólo sustituye la primera coincidencia.
+
+__Solución__: Expresiones regulares
+
+```js
+'Xurxo,González,Tenreiro'.replace(/,/g, ' ') // >> 'Xurxo González Tenreiro' 
+```
+4. __string.match__ Muy parecido al anterior pero busca las ocurrencias
+
+```js
+'Xurxo,González,Tenreiro'.match(/,/g) // [',', ',']
+```
+Si no encuentra ocurrencias devuelve __null__
+
+```js
+'Xurxo González Tenreiro'.match(/,/g) // null
+```
+
 # Inmutables
 
 ## Arrays, vectores, listas o matrices
