@@ -36,10 +36,12 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
 
 ## Sesión 12
 
-Clase Persona
+### Clase
 
-![Clase persona](./assets/objeto_persona.jpg)
+- [Mascota](./assets/javascript_taller_clases.pdf)
+- [Herencia de mascota](./assets/javascript_taller_clases_ii.pdf)
 
-- [Classes Exercises](https://github.com/webferrol/js-classes-exercises)
-- [Expresiones regulares](https://github.com/webferrol/js-exp-reg-exercise)
+[Repaso nodos](https://github.com/webferrol/js-respaso-nodos)
+
+
 
