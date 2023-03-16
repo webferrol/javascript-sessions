@@ -26,7 +26,7 @@ function mapper (xurxoMapping) {
   }
 }
 
-// Esto es lo mismo pero con destructuring como argumento
+// Esto es lo mismo pero con destructuring como parámetro
 // function mapper ({ nombre, apellido1, apellido2, fecha_nacimiento }) {
 //   return {
 //     nombre,
