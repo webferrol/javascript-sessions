@@ -17,6 +17,7 @@ Aquí tenemos a nuestro héroe
 - [Estructuras de control y ciclos](estructuras-control.md)
 - [Funciones](funciones.md)
 - [DOM - Document Object Model](DOM.md)
+- [Destructuring](destructuring.md)
 - [Node y bundles](node-bundles.md)
 - [Ejercicios](ejercicios.md)
 
@@ -34,12 +35,9 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
     - Escribir en la barra de direcciones __about:blank__ o abrir una pestaña del navegador en cualquier pestaña
     - Abrir el inspector e ir a la opción de la consola
 
-## Sesión 12
+## Sesión 15
 
-### Clase
-
-- [Mascota](./assets/javascript_taller_clases.pdf)
-- [Herencia de mascota](./assets/javascript_taller_clases_ii.pdf)
+### JSON
 
 [Repaso nodos](https://github.com/webferrol/js-respaso-nodos)
 

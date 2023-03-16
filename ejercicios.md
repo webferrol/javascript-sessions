@@ -20,9 +20,9 @@
 17. [x] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 18. [x] Realizar un programa que acepte dos números obtenidos de sendos controles de formuario de tipo _text_ y reste simpre el mayor de los dos
 
-- [Ejercicios de DOM](https://github.com/webferrol/dom-js-newbie)
-- [Ejercicios random](https://github.com/webferrol/js-random-exercises)
-- [Classes Exercises](https://github.com/webferrol/js-classes-exercises)
-- [Expresiones regulares](https://github.com/webferrol/js-exp-reg-exercise)
+- [DOM Exercise](https://github.com/webferrol/dom-js-newbie)
+- [Random exercise](https://github.com/webferrol/js-random-exercises)
+- [Mascota Class, mappers & models](https://github.com/webferrol/js-vite-models-mappers-mascota-class)
+- [Regular Expression](https://github.com/webferrol/js-exp-reg-exercise)
 
 [Volver](README.md)
