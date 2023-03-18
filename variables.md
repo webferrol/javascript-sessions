@@ -86,7 +86,7 @@ for (let i = 0; i < names.length; i++) {
   console.log(names[i])
 } // >> 'Xurxo', 'Irene', 'Manuel'
 ```
-
+<a name="arr"></a>
 ### Métodos y propiedades en arrays
 
 ```js

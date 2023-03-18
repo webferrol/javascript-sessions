@@ -22,7 +22,7 @@
 
 - [DOM Exercise](https://github.com/webferrol/dom-js-newbie)
 - [Random exercise](https://github.com/webferrol/js-random-exercises)
-- [Mascota Class, mappers & models](https://github.com/webferrol/js-vite-models-mappers-mascota-class)
 - [Regular Expression](https://github.com/webferrol/js-exp-reg-exercise)
+- [Class, mappers, models, debounce](https://github.com/webferrol/js-vite-models-mappers-debounce-classes)
 
 [Volver](README.md)

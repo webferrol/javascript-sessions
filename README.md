@@ -14,11 +14,13 @@ Aquí tenemos a nuestro héroe
 # Tabla de contenidos
 
 - [Variables](variables.md)
+  - [Métodos de Arrays](variables.md#arr)
 - [Estructuras de control y ciclos](estructuras-control.md)
 - [Funciones](funciones.md)
 - [DOM - Document Object Model](DOM.md)
 - [Destructuring](destructuring.md)
 - [Node y bundles](node-bundles.md)
+- [Promesas](async-await-then.md)
 - [Ejercicios](ejercicios.md)
 
 # Enlaces de interés
@@ -35,9 +37,7 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
     - Escribir en la barra de direcciones __about:blank__ o abrir una pestaña del navegador en cualquier pestaña
     - Abrir el inspector e ir a la opción de la consola
 
-## Sesión 15
-
-### JSON
+## Sesión 1 Accesibilidad Ejercicio
 
 [Repaso nodos](https://github.com/webferrol/js-respaso-nodos)
 
