@@ -21,6 +21,7 @@ Aquí tenemos a nuestro héroe
 - [Destructuring](destructuring.md)
 - [Node y bundles](node-bundles.md)
 - [Promesas](async-await-then.md)
+- [jest](jest.md)
 - [Ejercicios](ejercicios.md)
 
 # Enlaces de interés
