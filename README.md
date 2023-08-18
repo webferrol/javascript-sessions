@@ -1,6 +1,7 @@
 # JavaScript
 
-[Classroom](https://classroom.google.com/c/NTg0OTQ0Mzc5Nzg3?cjc=onnt235)
+[Classroom javascript](https://classroom.google.com/c/NTg0OTQ0Mzc5Nzg3?cjc=onnt235)
+[Classroom VSC(https://classroom.google.com/c/NTg0Nzk5MTEzNTkx?cjc=kc36k4h)
 
 _JavaScript_ es un __lenguaje de programación de alto nivel__. Se trata e un lenguaje interpretado y no compilado.
 
