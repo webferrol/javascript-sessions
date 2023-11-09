@@ -36,7 +36,6 @@ Para depurar nuestro código y ver resultados como desarrolladores disponemos de
 # Tabla de contenidos
 
 - [Variables](variables.md)
-  - [Métodos de Arrays](variables.md#arr)
 - [Estructuras de control y ciclos](estructuras-control.md)
 - [Funciones](funciones.md)
 - [DOM - Document Object Model](DOM.md)

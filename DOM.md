@@ -47,4 +47,4 @@ btn.classList.add('btn','btn-primary')
 btn.classList.add('btn') // para eliminar sería. btn.classList.remove('btn')
 ```
 
-[Volver](README.md)
+[Volver](README.md#tabla-de-contenidos)

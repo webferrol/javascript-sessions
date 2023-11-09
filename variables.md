@@ -26,7 +26,9 @@ nombre[0] = 'X'
 console.log(nombre) // >> 'Jorge' No admite operaciones de escritura. Inmutabilidad
 ```
 
-### Propiedades o métodos
+A continuación nos centraremos en algunas __propiedades__ y __métodos__ que podemos realizar en las cadenas de texto.
+
+### Propiedades sobre String
 
 ```js
 let fullName = 'Xurxo González Tenreiro'
@@ -37,6 +39,8 @@ let fullName = 'Xurxo González Tenreiro'
 ```js
 fullName.length // >> 23
 ```
+
+### Métodos sobre String
 
 2. __Método__ para obtener un __array__ de un string
 
@@ -93,31 +97,38 @@ for (let i = 0; i < names.length; i++) {
 const numeros = [0, -1 , 1]
 ```
 
+### Propiedades sobre Arreglos (también llamados arrays o vectores)
+
 1. __Propiedad__ que indica el tamaño de un __array__
 
 ```js
 numeros.length // >> 3
 ```
-2. __Método__ para añadir un elemento al __array__
+
+### Métodos sobre Arreglos (también llamados arrays o vectores)
+
+1. __Método__ para añadir un elemento al __array__
 
 ```js
 numeros.push(0) // >> [0, -1, 1, 0]
 numeros.push(22) // >> [0, -1, 1, 0, 22]
 ```
-3. __Método__ para eliminar el último elemento de un __array__
+2. __Método__ para eliminar el último elemento de un __array__
 
 ```js
 const removedItem = numeros.pop() // >> [0, -1, 1, 0]
 console.log(removedItem) // >> 22
 ```
 
-4. Concatenar elementos de un array con un separador
+3. Concatenar elementos de un array con un separador
 
 ```js
 numeros.join('❤️') // >> '0❤️-1❤️1❤️0'
 ```
 
-5. array.prototype.reduce():  __función reductora__ sobre cada elemento de un array, devolviendo como resultado __un único valor__. Podemos ver más informacion en [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+__A CONTINUACIÓN VEREMOS MÉTODOS AVANZADOS EN LOS ARRAYS__
+
+4. array.prototype.reduce():  __función reductora__ sobre cada elemento de un array, devolviendo como resultado __un único valor__. Podemos ver más informacion en [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
 Deseamos obtener la suma total de los elementos contenidos en el siguiente __array__:
 
@@ -179,7 +190,7 @@ const contadores = numeros.reduce((previousValue, currentValue) => {
 console.log('Positives:',contadores[0], 'Negatives:', contadores[1], 'Zeros:',contadores[2]) // >> 'Positives:' 1 'Negatives:' 1 'Zeros:' 2
 ```
 
-6. array.prototype.map
+5. array.prototype.map
 
 Nos permite iterar sobre cada elemento de un array y devolver un nuevo array con las operaciones realizada:
 
@@ -196,4 +207,4 @@ console.log(mayorMenorEdades) // >> [ 'Mayor de edad: 18', 'Menor de edad: 15', 
 
 __NO OBSTANTE NO HAY QUE OBSESIONARSE. LO QUE PRIMA COMO SIEMPRE ES LA LEGIBILIDAD DEL CÓDIGO__
 
-[Volver](README.md)
+[Volver](README.md#tabla-de-contenidos)
