@@ -1,46 +1,35 @@
-# JavaScript
+# Ejercicios básicos
 
-[Classroom JavaScript](https://classroom.google.com/c/NTg0OTQ0Mzc5Nzg3?cjc=onnt235)
+__Utilizando la consola__
 
-[Classroom VSC](https://classroom.google.com/c/NTg0Nzk5MTEzNTkx?cjc=kc36k4h)
+1. [] Escribe un programa de una sola línea que haga que aparezca en la consola el mensaje “Hello World”.
+2. [] Realiza el mismo ejercico que el anterior pero mostrándolo en una variable
+3. [] Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
 
-<img src="./assets/js-joke.bmp" alt="JavaScript: Frontend && Backend" width="300">
+__Interactuando con el usuario: Métodos window.alert() y window.propmt()__
 
-_JavaScript_ es un __lenguaje de programación de alto nivel__. Se trata e un lenguaje interpretado y no compilado.
+4. [] Escribe un programa de dos líneas que pida el nombre del usuario con el __método prompt()__ y escriba un texto que diga “Hola Fulano" en el caso de que el usuario se haya identificado como "Fulano"
+5. [] Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
+6. [] Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+7. [] Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+![Mayor de 3](./assets/mayor_de_tres.jpg)
+8. [] Escribe un programa que pida un número y diga si es divisible por 2
+9. [] Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a (No hay que escribir acentos)
+10. [] Escribe un programa que pida una frase y escriba las vocales que aparecen (No hay que escribir acentos y sólo minúsculas)
+11. [] Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales (No hay que escribir acentos)
+12. [] Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
+13. [] Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
+14. [] Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
+15. [] Escribir un programa que escriba en pantalla los divisores de un número dado
+16. [] Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
+17. [] Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
+18. [] Realizar un programa que acepte dos números obtenidos _text_ y reste simpre el mayor de los dos
 
-  En un _lenguaje compilado_, la máquina de destino traduce directamente el programa. En un __lenguaje interpretado__, el código fuente no es directamente traducido por la máquina de destino.
+# Ejercicios avanzados
 
-El estándard que sigue hoy en día es [ECMAScript](https://es.wikipedia.org/wiki/ECMAScript)
+- [DOM Exercise](https://github.com/webferrol/dom-js-newbie)
+- [Random exercise](https://github.com/webferrol/js-random-exercises)
+- [Regular Expression](https://github.com/webferrol/js-exp-reg-exercise)
+- [Class, mappers, models, debounce](https://github.com/webferrol/js-vite-models-mappers-debounce-classes)
 
-  JavaScript fue desarrollado originalmente por __Brendan Eich__ de _Netscape_ con el nombre de Mocha, el cual fue renombrado posteriormente a _LiveScript_, para finalmente quedar como __JavaScript__.
-
-Aquí tenemos a nuestro héroe
-
-<img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg/900px-Brendan_Eich_Mozilla_Foundation_official_photo.jpg" alt="Brendan Eich" width="300" loading="lazy">
-
-# Enlaces de interés
-
-- [Apuntes de Bluuweb](https://bluuweb.dev/04-javascript/javascript.html)
-- [MDN JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
-- [Midudev](https://www.aprendejavascript.dev/)
-
-## Depuración del código
-
-Para depurar nuestro código y ver resultados como desarrolladores disponemos del uso de la consola. Hay varias opciones para lanzarla: 
-- Comando __node__ si tenemos instalado [__nodejs__](https://nodejs.org/es)
-    node fichero.js
-- Navegador, por ejemplo:
-    - Escribir en la barra de direcciones __about:blank__ o abrir una pestaña del navegador en cualquier pestaña
-    - Abrir el inspector e ir a la opción de la consola
-
-# Tabla de contenidos
-
-- [Variables](variables.md)
-- [Estructuras de control y ciclos](estructuras-control.md)
-- [Funciones](funciones.md)
-- [DOM - Document Object Model](DOM.md)
-- [Destructuring](destructuring.md)
-- [Node y bundles](node-bundles.md)
-- [Promesas](async-await-then.md)
-- [jest](jest.md)
-- [Ejercicios](ejercicios.md)
+[Volver](README.md#tabla-de-contenidos)
