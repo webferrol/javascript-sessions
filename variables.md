@@ -4,7 +4,7 @@
 - La variables que no pueden modificarse se llaman __constantes__
 - Clasificación de variables según su tipo
   1. __Primitivos__ o __inmutables__ (number, string, boolean, bigint, undefind, Symbol)
-  2. De __referencia__ o __mutables__, en definitva todos los que no son primitivos
+  2. De __referencia__ o __mutables__, en definitiva todos los que no son primitivos
   3. No está en esta clasificación pero ponemos el caso raro o bug __null__
 - Las __variables__ y __constantes__ se deben siempre declarar en ES6 con las palabras reservadas __let__ o __const__
 
