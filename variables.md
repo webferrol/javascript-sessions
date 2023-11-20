@@ -5,7 +5,7 @@
 - Clasificación de variables según su tipo
   1. __Primitivos__ o __inmutables__ (number, string, boolean, bigint, undefined, Symbol)
   2. De __referencia__ o __mutables__, en definitiva todos los que no son primitivos
-  3. No está en esta clasificación pero ponemos el caso raro o bug __null__
+  3. No está en esta clasificación pero ponemos el caso raro o [bug](https://definicion.de/bug/) __null__
 - Las __variables__ y __constantes__ se deben siempre declarar en ES6 con las palabras reservadas __let__ o __const__
 
 ```js
