@@ -81,6 +81,11 @@ A continuación algunas de las operaciones que podemos realizar con los arrays.
 ```js
 // Inicializar una lista, vector o array
 const newArray = []
+// Otra forma alternativa para inicializar un array a través de un instancia
+const otherArray = new Array()
+// Si quieres definir un array con un tamaño determinado
+const arrayWithThreeItems = new Array(3)
+
 
 // Array con datos
 const names = ['Xurxo', 'Irene', 'Manuel']
@@ -91,7 +96,15 @@ for (let i = 0; i < names.length; i++) {
 } // >> 'Xurxo', 'Irene', 'Manuel'
 ```
 <a name="arr"></a>
+
+
+### Cargar un array con valores
+
+[Blog de Miguel Durán o su alias midudev](https://midu.dev/inicializar-array-con-valores/)
+
 ### Métodos y propiedades en arrays
+
+Partamos del siguiente ejemplo:
 
 ```js
 const numeros = [0, -1 , 1]
