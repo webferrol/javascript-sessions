@@ -24,7 +24,7 @@ Aquí tenemos a nuestro héroe
 # Enlaces de interés
 
 - [MDN JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
-- [Midudev](https://www.aprendejavascript.dev/)
+- [Curso de Midudev](https://www.aprendejavascript.dev/)
 
 ## Depuración del código
 
