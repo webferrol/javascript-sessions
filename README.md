@@ -23,7 +23,6 @@ Aquí tenemos a nuestro héroe
 
 # Enlaces de interés
 
-- [Apuntes de Bluuweb](https://bluuweb.dev/04-javascript/javascript.html)
 - [MDN JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
 - [Midudev](https://www.aprendejavascript.dev/)
 
