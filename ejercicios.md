@@ -12,7 +12,6 @@ __Interactuando con el usuario: Métodos window.alert() y window.propmt()__
 5. [] Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
 6. [] Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 7. [] Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
-![Mayor de 3](./assets/mayor_de_tres.jpg)
 8. [] Escribe un programa que pida un número y diga si es divisible por 2
 9. [] Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a (No hay que escribir acentos)
 10. [] Escribe un programa que pida una frase y escriba las vocales que aparecen (No hay que escribir acentos y sólo minúsculas)
