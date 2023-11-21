@@ -10,7 +10,6 @@ _JavaScript_ es un __lenguaje de programación de alto nivel__. Se trata e un __
 
 Los __lenguajes interpretados__ son aquellos que convierten su código a de la máquina (binario) a medida que ejecutan el código.
 En cambio los __lenguajes compilados__ son convertidos directamente a __código máquina__ que el procesador puede ejecutar.
-``` 
 
 El estándard que sigue hoy en día es [ECMAScript](https://es.wikipedia.org/wiki/ECMAScript)
 
