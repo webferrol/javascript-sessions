@@ -6,9 +6,12 @@
 
 <img src="./assets/js-joke.bmp" alt="JavaScript: Frontend && Backend" width="300">
 
-_JavaScript_ es un __lenguaje de programación de alto nivel__. Se trata e un lenguaje interpretado y no compilado.
+_JavaScript_ es un __lenguaje de programación de alto nivel__. Se trata e un __lenguaje interpretado__ y no compilado.
 
-  En un _lenguaje compilado_, la máquina de destino traduce directamente el programa. En un __lenguaje interpretado__, el código fuente no es directamente traducido por la máquina de destino.
+```
+Los 🎈lenguajes interpretados🎈 son aquellos que convierten su lenguaje al de la máquina (binario) a medida que ejecutan el código.
+En cambio los 🎈lenguajes compilados🎈 son convertidos directamente a código máquina que el procesador puede ejecutar.
+``` 
 
 El estándard que sigue hoy en día es [ECMAScript](https://es.wikipedia.org/wiki/ECMAScript)
 
