@@ -1,6 +1,6 @@
 # Funciones
 
-## Sintaxis
+## Sintaxis tradicional
 
 Tenemos la __sintaxis tradicional__:
 
@@ -15,7 +15,29 @@ function miFuncion (parameter1, parameter2, parameterN) {
 }
 ```
 
-Sintáxis a partir de __ES6__
+## Function expression & Arrow function
+
+### Function expression
+
+Una **function expression** es una función que se asigna a una variable. Por ejemplo:
+
+```js
+// esto es una function expression
+const sum = function (a, b) {
+  return a + b
+}
+
+// esto es una declaración de función
+function sum(a, b) {
+  return a + b
+}
+```
+
+```
+¡Fíjate que la function no tiene nombre en la function expression! Cuando una función no tiene nombre se le llama función anónima. Aunque en este caso, la función está asignada a una variable que sí tiene nombre y por eso podremos utilizarla más adelante.
+```
+
+### Arrow function
 
 ```js
 const miFuncion = (parameter1, parameter2, parameterN) => {  // No olvides el operador flecha =>
