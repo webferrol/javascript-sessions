@@ -89,21 +89,13 @@ const otherArray = new Array()
 const arrayWithThreeItems = new Array(3)
 ```
 
-### Inicialización con dtos
+### Inicialización con datos
 
-´´´javascript
+```javascript
 // Array con datos
 const names = ['Xurxo', 'Irene', 'Manuel']
-
-// Recorrido de un array
-for (let i = 0; i < names.length; i++) {
-  console.log(names[i])
-} // >> 'Xurxo', 'Irene', 'Manuel'
 ```
-
-### Cargar un array con valores
-
-[Blog de Miguel Durán o su alias midudev](https://midu.dev/inicializar-array-con-valores/)
+Si queremos ver formas más avanzadas podemos ver [Cómo inicializar Array con valores en JavaScript](https://midu.dev/inicializar-array-con-valores/)
 
 ### Métodos y propiedades en arrays
 
