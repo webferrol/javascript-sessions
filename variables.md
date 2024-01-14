@@ -75,8 +75,10 @@ Si no encuentra ocurrencias devuelve __null__
 
 ## Arrays, vectores, listas o matrices
 
-Nos permiten coo indica su nombre guardar colección de datos primitivo o no pritivos.
+Nos permiten guardar una colección de datos **primitivos** o **no primitivos**.
 A continuación algunas de las operaciones que podemos realizar con los arrays.
+
+### Inicialización sin datos
 
 ```js
 // Inicializar una lista, vector o array
@@ -85,8 +87,11 @@ const newArray = []
 const otherArray = new Array()
 // Si quieres definir un array con un tamaño determinado
 const arrayWithThreeItems = new Array(3)
+```
 
+### Inicialización con dtos
 
+´´´javascript
 // Array con datos
 const names = ['Xurxo', 'Irene', 'Manuel']
 
@@ -95,8 +100,6 @@ for (let i = 0; i < names.length; i++) {
   console.log(names[i])
 } // >> 'Xurxo', 'Irene', 'Manuel'
 ```
-<a name="arr"></a>
-
 
 ### Cargar un array con valores
 
