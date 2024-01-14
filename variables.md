@@ -113,6 +113,16 @@ const numeros = [0, -1 , 1]
 numeros.length // >> 3
 ```
 
+### Formas tradicional de recorrer un array: ciclo for
+
+```js
+const nombres = ['Xurxo', 'David', 'Rebeca', 'Mónica']
+for (let i = 0; i < nombres.length; i++) {
+  console.log(nombres[i]) // << 'Xurxo', 'David', 'Rebeca', 'Mónica'
+}
+console.log(`Hay ${nombres.length} personas.`) // << 'Hay 4 personas.'
+```
+
 ### Métodos sobre Arreglos (también llamados arrays o vectores)
 
 1. __Método__ para añadir un elemento al __array__
