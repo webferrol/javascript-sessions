@@ -14,7 +14,7 @@ let newAge = age
 const PI = 3.1416
 ```
 
-# Primitivos
+# Primitivos o inmutables
 
 ## string
 
@@ -71,7 +71,7 @@ Si no encuentra ocurrencias devuelve __null__
 'Xurxo González Tenreiro'.match(/,/g) // null
 ```
 
-# Inmutables
+# Mutables o no primitivos
 
 ## Arrays, vectores, listas o matrices
 
