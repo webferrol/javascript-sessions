@@ -118,9 +118,9 @@ numeros.length // >> 3
 ```js
 const nombres = ['Xurxo', 'David', 'Rebeca', 'Mónica']
 for (let i = 0; i < nombres.length; i++) {
-  console.log(nombres[i]) // << 'Xurxo', 'David', 'Rebeca', 'Mónica'
+  console.log(nombres[i]) // >> 'Xurxo', 'David', 'Rebeca', 'Mónica'
 }
-console.log(`Hay ${nombres.length} personas.`) // << 'Hay 4 personas.'
+console.log(`Hay ${nombres.length} personas.`) // >> 'Hay 4 personas.'
 ```
 
 ### Métodos sobre Arreglos (también llamados arrays o vectores)
