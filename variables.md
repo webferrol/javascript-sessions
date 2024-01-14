@@ -97,14 +97,6 @@ const names = ['Xurxo', 'Irene', 'Manuel']
 ```
 Si queremos ver formas más avanzadas podemos ver [Cómo inicializar Array con valores en JavaScript](https://midu.dev/inicializar-array-con-valores/)
 
-### Métodos y propiedades en arrays
-
-Partamos del siguiente ejemplo:
-
-```js
-const numeros = [0, -1 , 1]
-```
-
 ### Propiedades sobre Arreglos (también llamados arrays o vectores)
 
 1. __Propiedad__ que indica el tamaño de un __array__
@@ -123,7 +115,15 @@ for (let i = 0; i < nombres.length; i++) {
 console.log(`Hay ${nombres.length} personas.`) // >> 'Hay 4 personas.'
 ```
 
-### Métodos sobre Arreglos (también llamados arrays o vectores)
+### Métodos tradicionales empleados sobre arrays
+
+Partamos del siguiente ejemplo:
+
+```js
+const numeros = [0, -1 , 1]
+```
+
+#### Métodos sobre Arreglos (también llamados arrays o vectores)
 
 1. __Método__ para añadir un elemento al __array__
 
@@ -138,7 +138,7 @@ const removedItem = numeros.pop() // >> [0, -1, 1, 0]
 console.log(removedItem) // >> 22
 ```
 
-3. Concatenar elementos de un array con un separador
+3. __Método__ para concatenar elementos de un array con un separador
 
 ```js
 numeros.join('❤️') // >> '0❤️-1❤️1❤️0'
