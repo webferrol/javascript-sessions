@@ -76,7 +76,20 @@ Si no encuentra ocurrencias devuelve __null__
 ## Arrays, vectores, listas o matrices
 
 Nos permiten guardar una colección de datos **primitivos** o **no primitivos**.
-A continuación algunas de las operaciones que podemos realizar con los arrays.
+
+## Consideraciones
+
+A la hora de hablar de este tipo de datos tenemos que tener claro dos conceptos:
+
+1. Índice. La posición en que se encuentra cada uno de los datos del array. El primer elemento empieza por cero
+2. Elemento de un array. El contenido propio de cada una de la posiciones del array
+
+```js
+const nombres = ['Xurxo', 'Jorge', 'George']
+const indice = 2
+
+console.log(`${nombres[indice]} se encuetra en la posición ${indice}`) // >> 'George se encuetra en la posición 2'
+```
 
 ### Inicialización sin datos
 
